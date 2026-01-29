@@ -1,0 +1,30 @@
+.itmes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    gap: 10%;
+    
+}
+
+.btn{
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+}
+
+.toast{
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #FFC107;
+}
+
+.card{
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #2196F3;
+}
