@@ -1,0 +1,32 @@
+.demo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70vh;
+    gap: 30%;
+}
+
+.ball {
+    margin-top: 5%;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #1dd1a1, #54a0ff);
+    border-radius: 50%;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    width: 88vw;
+    justify-content: space-around;
+}
+
+.button {
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(135deg, #1dcbd1, #547fff);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
