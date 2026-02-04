@@ -10,7 +10,7 @@ const animation = gsap.from('.card', {
     delay: 0.2,
     ease: "power4.out",
     stagger: 0.3,
-})
+});
 
 repeat.addEventListener('click', () => {
     animation.restart();
